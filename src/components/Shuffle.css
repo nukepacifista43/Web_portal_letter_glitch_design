@@ -1,0 +1,21 @@
+.shuffle-parent{
+  display:inline-block;
+  white-space:normal;
+  word-wrap:break-word;
+  will-change:transform;
+  visibility:hidden;
+}
+
+.shuffle-parent.is-ready{ visibility:visible; }
+
+.shuffle-char-wrapper{
+  display:inline-block;
+  overflow:hidden;
+  vertical-align:baseline;
+}
+
+.shuffle-char{
+  display:inline-block;
+  line-height:inherit;
+  will-change:transform,opacity;
+}
